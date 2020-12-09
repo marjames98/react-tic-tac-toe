@@ -16,3 +16,7 @@ You'll notice there are two options for setup that the tutorial offers. Do **Set
 
 
 ## Write a brief `reflection` on what you learned from this tutorial here:
+
+* A lot about functions that I wasn't understanding in Unit One
+* Creating buttons and how to make them do stuff (lots of googling)
+* Styling styling styling! One of my favorite things to do now is play around with the style code to see if I can get things to look how I see them in my head, on screen. The more I do the same thing over and over (and cheat by looking back at my previous repos), the more that constant repetition becomes embedded information in my brain. 
