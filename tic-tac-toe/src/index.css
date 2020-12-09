@@ -1,0 +1,52 @@
+body {
+    font-size: 14px;
+    margin: 20px;
+  }
+  
+  ol, ul {
+    padding-left: 30px;
+  }
+  
+  .board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    color: lightcoral;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .square {
+    float: left;
+    font-size: 75px;
+    font-weight: bold;
+    line-height: 50px;
+    height:200px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 200px;
+    background-image: url("https://lh3.googleusercontent.com/proxy/X0Bu5pDQMHgiBKo6J62ZuXvwHT3xAolFmoYtVn8EnDeGgoBI8SqyowHWojFOaJfbEDuVkQdgl6y9yvbaUhAjEcPe6bQfthRG1kOfSCfe0AHDKL_J9-0");
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .kbd-navigation .square:focus {
+    background: #ddd;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .game-info {
+    margin-left: 20px;
+  }
