@@ -90,7 +90,7 @@ class Game extends React.Component {
 
     const moves = history.map((step, move) => {
       const desc = move ?
-        'jump back to move ' + move :
+        'back to move ' + move :
         'reset board!';
       return (
         <li key={move}> 
@@ -101,9 +101,9 @@ class Game extends React.Component {
 
     let status;
     if (winner) {
-      status = "winner = " + winner + "! "
+      status = "winner : " + winner + "! "
     } else {
-      status = "next turn= " + (this.state.xIsNext ? "X" : "O");
+      status = "next turn : " + (this.state.xIsNext ? "X" : "O");
     }
 
     return (
@@ -115,8 +115,11 @@ class Game extends React.Component {
           />
         </div>
         <div className="game-info">
+          <h1>tic tac toe :)))</h1>
+          <h2>to play, click any square & make first move!</h2>
+          <h3>to win, get three tiles in a row before opponent!</h3>
           <div>{status}</div>
-          <ol>{moves}</ol>
+          <ul>{moves}</ul>
         </div>
       </div>
     );
