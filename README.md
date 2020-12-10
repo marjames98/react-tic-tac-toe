@@ -14,6 +14,7 @@ You'll notice there are two options for setup that the tutorial offers. Do **Set
 
 ## Paste the link to your finished repo here:
 
+https://github.com/marjames98/react-tic-tac-toe
 
 ## Write a brief `reflection` on what you learned from this tutorial here:
 
